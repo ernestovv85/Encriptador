@@ -2,6 +2,10 @@
   display: none;
 }
 
+#result {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -159,11 +163,25 @@ body {
   color: #343a40;
 }
 
+.msg {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
 .textArea {
-  margin-left: 4%;
+  margin-left: 5.5%;
   margin-top: 4%;
   width: 90%;
-  height: auto;
+  height: 84.5%;
   border: none;
   outline: none;
   resize: none;
@@ -177,8 +195,8 @@ body {
 }
 
 .btnCopy {
-  margin-left: 15%;
-  margin-top: 10%;
+  margin-left: 12.5%;
+  margin-top: 5%;
   padding: 10px;
   width: 200px;
   height: 45px;
