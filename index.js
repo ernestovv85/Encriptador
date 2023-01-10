@@ -7,7 +7,10 @@ function encrypter() {
   var encrypt = encrypt.replace(/u/gim, "ufat");
   document.getElementById("espera").style.display = "none";
   document.getElementById("txt").style.display = "none";
+  document.getElementById("msg").style.display = "none";
   document.getElementById("result").innerHTML = encrypt;
+  document.getElementById("result").style.display = "show";
+  document.getElementById("result").style.display = "inherit";
   document.getElementById("copyButton").style.display = "show";
   document.getElementById("copyButton").style.display = "inherit";
 }
@@ -21,7 +24,10 @@ function decrypter() {
   var encrypt = encrypt.replace(/ufat/gim, "u");
   document.getElementById("espera").style.display = "none";
   document.getElementById("txt").style.display = "none";
+  document.getElementById("msg").style.display = "none";
   document.getElementById("result").innerHTML = encrypt;
+  document.getElementById("result").style.display = "show";
+  document.getElementById("result").style.display = "inherit";
   document.getElementById("copyButton").style.display = "show";
   document.getElementById("copyButton").style.display = "inherit";
 }
